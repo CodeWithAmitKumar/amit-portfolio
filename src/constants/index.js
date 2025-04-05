@@ -1,38 +1,30 @@
-
 import {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  gearXpert,
-  project2,
-  project3,
-  mysql,
-  express,
   aws,
-  mui,
-  
-  gsap,
-  framer,
+  backend,
+  c,
+  cpp,
+  creator,
+  css,
+  express,
   figma,
+  firstTestimonial,
+  gearXpert,
   git,
   html,
   javascript,
+  mobile,
   mongodb,
+  mysql,
   nodejs,
+  php,
+  project2,
+  project3,
   reactjs,
-  redux,
-  tailwind,
-  threejs,
-  firstTestimonial,
   secondTestimonial,
+  tailwind,
   thirdTestimonial,
-} from '../assets'
+  web
+} from '../assets';
 
 
 // Import Tekisky separately
@@ -90,39 +82,28 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
-
- 
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Php",
+    icon: php,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Material Ui",
-    icon: mui,
+    name: "MySql",
+    icon: mysql,
   },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+
+  {
+    name: "figma",
+    icon: figma,
+  },
+ 
+
   {
     name: "Node JS",
     icon: nodejs,
@@ -140,8 +121,12 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "MySql",
-    icon: mysql,
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "C++",
+    icon: cpp,
   },
 
   {
@@ -270,4 +255,5 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
+
