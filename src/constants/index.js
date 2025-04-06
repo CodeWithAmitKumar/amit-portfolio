@@ -8,17 +8,21 @@ import {
   express,
   figma,
   firstTestimonial,
-  gearXpert,
   git,
   html,
+  java,
   javascript,
   mobile,
   mongodb,
   mysql,
   nodejs,
   php,
-  project2,
-  project3,
+  project01,
+  project02,
+  project03,
+  project04,
+  project05,
+  project06,
   reactjs,
   secondTestimonial,
   tailwind,
@@ -128,6 +132,10 @@ const technologies = [
     name: "C++",
     icon: cpp,
   },
+  {
+    name: "Java",
+    icon: java,
+  },
 
   {
     name: "git",
@@ -156,103 +164,186 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
+      "I thought it was impossible to make a website as beautiful as our product, but Amit proved me wrong.",
+    name: "Bhagaban Patra",
+    designation: "Manager",
+    company: "QuicKart.com",
     image: firstTestimonial,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
+      "I've never met a web developer who truly cares about their clients' success like Amit does.",
+    name: "Ramakanta Behera",
+    designation: "Assistant Professor",
+    company: "mems.edu.in",
     image: secondTestimonial,
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "After Amit optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Snehasis Behera",
+    designation: "Tour-Manager",
+    company: "MakemyJourney.com",
     image: thirdTestimonial,
   },
 ];
 
 const projects = [
+  //project1
   {
-    name: "Tekisky Mart",
+    name: "MakeMyJourney-Travel",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "It is a web based travel booking system with separate interface for custumer and administrator , The system makes travel booking easy , keep records organised and connect with other services for a safe and smooth experience .",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Html",
         color: "white-text-gradient",
       },
       {
-        name: "node",
+        name: "Css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: project03,
+    source_code_link: "https://github.com/#",
+  },
+
+  // project2
+
+  {
+    name: "EmployeeWorld",
+    description:
+      "A web app to manage employee data , including adding , updateing and deleteing records , it supports role based access , salary details and attendence tracking , streamilimimg HR operations .",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySql",
+        color: "white-text-gradient",
+      },
+      {
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
  
     ],
-    image: project2,
-    source_code_link: "https://github.com/",
+    image: project01,
+    source_code_link: "https://github.com/CodeWithAmitKumar/employeemanagementsystm",
   },
+
+  //projectt3
   {
-    name: "GearXpert",
+    name: "McqSystem",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "The web based exam system is an online platform designed to conduct exam efficiently and securely over the internet . It allows teacher to create , manage and shedule exam , while students can register , login and attempt exam from any device.",
     tags: [
       {
-        name: "react",
+        name: "MySql",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
+        name: "Php",
         color: "green-text-gradient",
       },
       {
-        name: "Gsap",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
+    image: project02,
+    source_code_link: "https://github.com/CodeWithAmitKumar/mcq_system",
   },
+
+  //project4
+
   {
-    name: "GoGroove-Ecommerce",
+    name: "IdeaGpt",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "IdeaGpt is an Ai-Powered online assistant designed to help users generate ideas , write content and get instant responce to their queries .  ",
     tags: [
       {
-        name: "react",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "GeminiApi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
       },
     ],
-    image: project3,
-    source_code_link: "https://github.com/",
+    image: project04,
+    source_code_link: "https://github.com/CodeWithAmitKumar/IdeaGpt",
   },
+
+  // project5
+  {
+    name: "DigitalSignPad",
+    description:
+      "It is a web based application that allows user to create and capture electronic signature  .  ",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: project05,
+    source_code_link: "https://github.com/CodeWithAmitKumar/digitalsignpad",
+  },
+
+  // project6
+  {
+    name: "VolumeBooster-Extension",
+    description:
+      "It is a chrome extension designe to enhance your YouTube audio experience by boosting the volume beyond the default maximum limit .  ",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Html",
+        color: "pink-text-gradient",
+      },
+     
+    ],
+    image: project06,
+    source_code_link: "https://github.com/CodeWithAmitKumar/volume-peeker",
+  },
+
+  //addproject
 ];
 
 export { experiences, projects, services, technologies, testimonials };
