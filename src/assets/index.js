@@ -16,6 +16,11 @@ import project03 from './project3.jpg';
 import project04 from './project4.jpg';
 
 import project05 from './project5.jpg';
+import walmart from './walmart.png';
+import rendzvous from './rendzvous.png';
+import octanet from './octanet.png';
+import bharatin from './bharatin.png';
+
 import project06 from './project6.jpg';
 import aws from './tech/aws.png';
 import c from './tech/c.png';
@@ -38,6 +43,6 @@ import web from "./web.png";
 
 export {
   aws, backend, c, close, cpp, creator, css, express, figma, firstTestimonial, git, github, html, java, javascript, logo, menu, mobile, mongodb, mysql, nodejs, php, project01, project02, project03, project04, project05, project06, reactjs,
-  secondTestimonial, tailwind, thirdTestimonial, web
+  secondTestimonial, tailwind, thirdTestimonial, walmart, rendzvous,bharatin,octanet, web
 };
 

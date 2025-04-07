@@ -1,6 +1,7 @@
 import {
   aws,
   backend,
+  bharatin,
   c,
   cpp,
   creator,
@@ -16,6 +17,7 @@ import {
   mongodb,
   mysql,
   nodejs,
+  octanet,
   php,
   project01,
   project02,
@@ -24,15 +26,19 @@ import {
   project05,
   project06,
   reactjs,
+  rendzvous,
   secondTestimonial,
   tailwind,
   thirdTestimonial,
+  walmart,
   web
 } from '../assets';
 
 
 // Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
+
+
+
 
 
 export const navLinks = [
@@ -146,19 +152,78 @@ const technologies = [
 ];
 
 const experiences = [
+  //1stexp-----
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
+    title: "Solution Architecture Job Simulation ",
+    company_name: "AWS | India Remote  ",
+    icon: aws,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "february 2025 - March 2025",
+    points: [
+      "Designed and simple and scalable hosting architecture based on client experiencing significant growth .",
+      " During this internship period i described my plan to my client how cost will be calculated for it .",
+    ],
+  },
+//2nd
+  {
+    title: "Frontend Developer Intern",
+    company_name: "Octanet Services Pvt Ltd | India Remote  ",
+    icon: octanet,
+    iconBg: "#383E56",
+    date: "July 2024 - August 2024",
+    points: [
+      "Worked with the company team and learned how to handle real-world projects .",
+      "Build Basic frontend Project's.",
+      "Implementing responsive design and ensuring cross-browser compatibility .",
+      "Received a completion certificate after successfully finishing the internship .",
+    ],
+  },
+  //3rd
+  {
+    title: "Full-Stack Development Internship",
+    company_name: "Bharat Intern | India Remote  ",
+    icon: bharatin,
+    iconBg: "#383E56",
+    date: "July 2024 - August 2024",
     points: [
       "Developing and maintaining web applications using MERN technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Improved professional skill by optimizing Linkedin profile and joining discussion .",
+    ],
+  },
+  
+  //4th
+  
+  {
+    title: "Advance software Engineering Virtual Experience Programme ",
+    company_name: "Walmart | India Remote  ",
+    icon: walmart,
+    iconBg: "#383E56",
+    date: "May 2024 - April 2024 ",
+    points: [
+      "Completed the Advance Software Programme and gain experience from the team .",
+      "I designed an entity relationship diagram and showcasing strong problem solving and algorithm skill .",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  //5th
+    {
+      title: "Campus Ambassador Internship",
+      company_name: "Rendezvous IIT Delhi | India Remote  ",
+      icon: rendzvous,
+      iconBg: "#383E56",
+      date: "September 2023 - October 2023",
+      points: [
+        "Successfully completed the Campus Ambassador internship for Rendezvous at IIT Delhi.",
+        "Improved leadership , communication , marketing , teamwork and event promotion skill.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Contributed to the festival's  success and received appreciation from the IIT Delhi Team .",
+      ],
+    },
+
+ 
+  //add---more
+
 ];
 
 const testimonials = [
@@ -173,8 +238,8 @@ const testimonials = [
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Amit does.",
-    name: "Ramakanta Behera",
-    designation: "Assistant Professor",
+    name: " Ramakanta Behera ",
+    designation: " Assistant Professor ", 
     company: "mems.edu.in",
     image: secondTestimonial,
   },
@@ -213,7 +278,7 @@ const projects = [
       },
     ],
     image: project03,
-    source_code_link: "https://github.com/#",
+    source_code_link: "https://github.com/makemyjourney",
   },
 
   // project2
